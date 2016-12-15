@@ -1,22 +1,27 @@
 <HTML>
+
 <head>
-	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="https://use.fontawesome.com/cac5715983.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.5.1/socket.io.min.js"></script>
-	
-<style>
-	</style>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://use.fontawesome.com/cac5715983.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.5.1/socket.io.min.js"></script>
+    <script src="js/jtg.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<script>
-  var socket = io();
-            
-    socket.on('event', function(){ 
-        });
+    <canvas id="c"></canvas>
 
-    socket.on('disconnect'), function(){
-    }
-    </script>
+    <table>
+        <thead>
+            <tr>
+                <td>Robot</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="js/graph.js"></script>
+
 </body>
 </html>

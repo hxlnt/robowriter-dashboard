@@ -1,6 +1,9 @@
 var io = io.connect();
+var canvas = document.getElementById('c');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
-io.on('data', function (incomingData) {
+io.on('initData', function (incomingData) {
     if(document.getElementById(incomingData.deviceid) !== null) {   
         var commandFunction = new Function( "" + incomingData.deviceid + "." + incomingData.command + "");
         commandFunction();
@@ -22,4 +25,4 @@ io.on('data', function (incomingData) {
     }
 });
 
-// io.emit('ready');
+io.emit('ready');
