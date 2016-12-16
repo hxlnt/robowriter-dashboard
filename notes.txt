@@ -1,0 +1,41 @@
+botDirectory = [
+    {
+        botName: "mybot",
+        botID: bot1481527225191,
+        currentCommand: "fd(0)",
+        totalDistance: 0,
+        botColor: "#000055"
+    },
+    {
+        botName: "gabby-feather",
+        botID: bot1481578976412,
+        currentCommand: "rt(90)",
+        totalDistance: 0,
+        botColor: "#005500"
+    }
+]
+
+server.js
+INITIALIZATION:
+for each results.entries, 
+    if results.entries.RowKey._ == any botDirectory[i].botName,
+        - get botDirectory[i].currentCommand and add "." + results.entries[i].command._ + ""
+        - add parseInt(results.entries[i].distance) to botDirectory[i].totalDistance
+    if results.entries.RowKey._ != any botDirectory[i].botName,
+        - array.push({botName: results.entries.RowKey._, botID: "bot" + results.entries.PartitionKey._ + "", currentCommand: results.entries.command._, totalDistance: parseInt(results.entries.distance._), botColor: color[0]})
+        - color.push(color.pop());
+lastUpdate = results.entries.PartitionKey._[results.entries.length-1]
+emit botdirectory
+
+UPDATE:
+get results where partitionkey > lastUpdate
+Do the steps in INITIALIZATION
+
+graph.js
+ON INITIALIZATION/UPDATE
+for each botDirectory[i], 
+    if div#botDirectory[i].botID exists,
+        - var commandFunction = "" + botDirectory[i].botID + ".color(" + botDirectory[i].botColor + ")." botDirectory[i].currentCommand + ""
+        - commandFunction()
+        - move div to match
+

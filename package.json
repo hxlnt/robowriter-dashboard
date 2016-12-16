@@ -2,10 +2,10 @@
   "name": "feather-nodebots-dashboard",
   "version": "1.0.0",
   "description": "dashboard to display feather-nodebots data",
-  "main": "server.js",
+  "main": "server2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server2.js"
   },
   "author": "rachel weil",
   "license": "ISC",

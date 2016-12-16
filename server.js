@@ -30,7 +30,6 @@ io.on('connection', function (socket) {
 
     // Function: Fetch table data on page load
     function initTable() {
-
         var initQuery = new azure.TableQuery().select(['PartitionKey', 'RowKey', 'command', 'distance']);
         tableService.queryEntities('outTable', initQuery, null, function (error, result, response) {
             if (!error) {
