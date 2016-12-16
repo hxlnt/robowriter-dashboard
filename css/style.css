@@ -1,8 +1,9 @@
 .turtle{
 	position:relative;
-	margin:-10px;
 	border: 1px solid white;
 	z-index: 10;
+	top: 50%;
+	left: 50%;
 }
 
 #c{

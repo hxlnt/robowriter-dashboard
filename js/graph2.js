@@ -28,7 +28,8 @@ io.on('updateData', function (data) {
         if (!document.getElementById(data[i].botID)) {
             $('body').prepend('<div id="' + data[i].botID + '">' + data[i].botName + '</div>');
         }
-        var commandFunction = new Function("t.thickness(3).color(" + data[i].botColor + ")." + data[i].currentCommand);
+        var botID = data[i].botID;
+        var commandFunction = new Function("t.thickness(3).color('" + data[i].botColor + "')." + data[i].currentCommand);
         commandFunction();
 var x = t.get.x() + canvas.width/2;
         var y = t.get.y() + canvas.height/2;
