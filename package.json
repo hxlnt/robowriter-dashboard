@@ -1,5 +1,5 @@
 {
-  "name": "feather-nodebots-dashboard",
+  "name": "robowriter",
   "version": "1.0.0",
   "description": "dashboard to display feather-nodebots data",
   "main": "server.js",
