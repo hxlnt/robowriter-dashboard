@@ -9,7 +9,6 @@
 	   -moz-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
 	z-index: 20;
-	overflow: hidden;
 }
 
 * { box-sizing: border-box; } 
@@ -34,6 +33,7 @@
 
 body,html{
 	background-color:#0000ff;
+	overflow: hidden;
 }
 
 p{
