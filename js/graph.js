@@ -24,7 +24,7 @@ io.on('initData', function (data) {
         //     return parseFloat(a.distance) - parseFloat(b.distance);
         // });
         // if (ckdistance > canvas.height) { canvas.scale(.85,.85) }
-        canvas.scale(.5,.5);
+        
         
     }
     io.emit('initialized');
@@ -47,11 +47,11 @@ io.on('updateData', function (data) {
         })
         console.log(commandFunction)
         t.pu().home().pd();
-        var distance = data.sort(function(a, b) {
-            return parseFloat(a.distance) - parseFloat(b.distance);
-        });
-        if (data[data.length].distance > canvas.height) { canvas.scale(.85,.85) }
-    }
+//         var distance = data.sort(function(a, b) {
+//             return parseFloat(a.distance) - parseFloat(b.distance);
+//         });
+//         if (data[data.length].distance > canvas.height) { canvas.scale(.85,.85) }
+//     }
 
 
     //         color.push(color.shift());
