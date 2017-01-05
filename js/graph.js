@@ -12,7 +12,7 @@ io.on('initData', function (data) {
         }
         var commandFunction = new Function("t.thickness(2).color('" + data[i].botColor + "')." + data[i].currentCommand);
         commandFunction();
-        var x = canvas.width/2 - t.get.x();
+        var x = canvas.width/2 - 255 - t.get.x();
         var y = -1*t.get.y() + canvas.height/2;
         $('div#' + botID + '').css({
             right: x + 'px',
