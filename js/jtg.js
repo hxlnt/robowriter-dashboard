@@ -46,8 +46,8 @@ window.Turtle = function(canvas){
 	var canvasWidth = canvas.width;
 	var canvasHeight = canvas.height;
 	ctx.lineCap = 'round';
-	ctx.scale(.55,.55);
-	ctx.translate((canvas.width * .55), (canvas.height * .55 ))
+	ctx.scale(.75,.75);
+	ctx.translate((canvas.width * .75), (canvas.height * .75 ))
 
 	var T = this;
 
