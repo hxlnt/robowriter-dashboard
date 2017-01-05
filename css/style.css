@@ -9,13 +9,14 @@
 	   -moz-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
 	z-index: 20;
+	overflow: hidden;
 }
 
 * { box-sizing: border-box; } 
 
 #ccontainer{
 	overflow: hidden;
-	border: 10px solid black;
+	/*border: 10px solid black;*/
 	z-index:0;
 }
 
@@ -24,7 +25,7 @@
 	top:10;
 	right:10;
 	bottom:10;
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	width: calc(100%-20px);
 	height: calc(100%-20px);
 	background-color:#0000ff;
@@ -32,7 +33,7 @@
 }
 
 body,html{
-	background-color:black;
+	background-color:#0000ff;
 }
 
 p{
