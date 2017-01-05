@@ -28,7 +28,97 @@ var color = [
     '#AA55FF', // Light purple
     '#FFAA55', // Light orange
     '#55FFAA', // Light blue-green
-    ]
+    
+    '#FFFF00', // Bright yellow
+    '#00FF00', // Bright green
+    '#00FFFF', // Bright cyan
+    '#FF00FF', // Bright pink
+    '#FF0000', // Bright red
+    '#AA00FF', // Bright purple
+    '#FFAA00', // Bright orange
+    '#00FFAA', // Bright blue-green
+
+    '#FFFF55', // Light yellow
+    '#55FF55', // Light green
+    '#55FFFF', // Light cyan
+    '#FF55FF', // Light pink
+    '#FF5555', // Light red
+    '#AA55FF', // Light purple
+    '#FFAA55', // Light orange
+    '#55FFAA', // Light blue-green
+    
+    '#FFFF00', // Bright yellow
+    '#00FF00', // Bright green
+    '#00FFFF', // Bright cyan
+    '#FF00FF', // Bright pink
+    '#FF0000', // Bright red
+    '#AA00FF', // Bright purple
+    '#FFAA00', // Bright orange
+    '#00FFAA', // Bright blue-green
+
+    '#FFFF55', // Light yellow
+    '#55FF55', // Light green
+    '#55FFFF', // Light cyan
+    '#FF55FF', // Light pink
+    '#FF5555', // Light red
+    '#AA55FF', // Light purple
+    '#FFAA55', // Light orange
+    '#55FFAA', // Light blue-green
+    
+    '#FFFF00', // Bright yellow
+    '#00FF00', // Bright green
+    '#00FFFF', // Bright cyan
+    '#FF00FF', // Bright pink
+    '#FF0000', // Bright red
+    '#AA00FF', // Bright purple
+    '#FFAA00', // Bright orange
+    '#00FFAA', // Bright blue-green
+
+    '#FFFF55', // Light yellow
+    '#55FF55', // Light green
+    '#55FFFF', // Light cyan
+    '#FF55FF', // Light pink
+    '#FF5555', // Light red
+    '#AA55FF', // Light purple
+    '#FFAA55', // Light orange
+    '#55FFAA', // Light blue-green
+      
+    '#FFFF00', // Bright yellow
+    '#00FF00', // Bright green
+    '#00FFFF', // Bright cyan
+    '#FF00FF', // Bright pink
+    '#FF0000', // Bright red
+    '#AA00FF', // Bright purple
+    '#FFAA00', // Bright orange
+    '#00FFAA', // Bright blue-green
+
+    '#FFFF55', // Light yellow
+    '#55FF55', // Light green
+    '#55FFFF', // Light cyan
+    '#FF55FF', // Light pink
+    '#FF5555', // Light red
+    '#AA55FF', // Light purple
+    '#FFAA55', // Light orange
+    '#55FFAA', // Light blue-green  
+    
+    '#FFFF00', // Bright yellow
+    '#00FF00', // Bright green
+    '#00FFFF', // Bright cyan
+    '#FF00FF', // Bright pink
+    '#FF0000', // Bright red
+    '#AA00FF', // Bright purple
+    '#FFAA00', // Bright orange
+    '#00FFAA', // Bright blue-green
+
+    '#FFFF55', // Light yellow
+    '#55FF55', // Light green
+    '#55FFFF', // Light cyan
+    '#FF55FF', // Light pink
+    '#FF5555', // Light red
+    '#AA55FF', // Light purple
+    '#FFAA55', // Light orange
+    '#55FFAA', // Light blue-green
+]
 var symbols = [
     {   slogan: "speedDemon.js.",
         icon: "dashboard"
