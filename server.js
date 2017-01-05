@@ -200,6 +200,249 @@ var symbols = [
     },
     {   slogan: "On fire! (Metaphorically, right?)",
         icon: "fire-extinguisher"
+    },
+        {   slogan: "speedDemon.js.",
+        icon: "dashboard"
+    },
+    {   slogan: "Perpetually lost.",
+        icon: "map-marker"
+    },
+    {   slogan: "Rebel without a cause.",
+        icon: "rebel"
+    },
+    {   slogan: "Powered by ESP8266.",
+        icon: "microchip"
+    },
+    {   slogan: "Was it supposed to do that?!",
+        icon: "exclamation-triangle"
+    },
+    {   slogan: "Headed toward the finish line.",
+        icon: "flag-checkered"
+    },
+    {   slogan: "Hang in there, baby.",
+        icon: "heartbeat"
+    },
+    {   slogan: "Really, really, really fast.",
+        icon: "fast-forward"
+    },
+    {   slogan: "Basically priceless.",
+        icon: "diamond"
+    },
+    {   slogan: "Fast as lightning!",
+        icon: "bolt"
+    },
+    {   slogan: "Eye on the prize.",
+        icon: "eye"
+    },
+    {   slogan: "????????",
+        icon: "question-circle"
+    },
+    {   slogan: "Pow-pow-power wheels!",
+        icon: "power-off"
+    },
+    {   slogan: "Uniquely unique.",
+        icon: "snowflake-o"
+    },
+    {   slogan: "Toot, toot! Ahh beep, beep!",
+        icon: "bus"
+    },
+    {   slogan: "A bit of a fixer-upper.",
+        icon: "wrench"
+    },
+    {   slogan: "IoT? Oh my!",
+        icon: "wifi"
+    },
+    {   slogan: "It's not a bug, it's a feature.",
+        icon: "bug"
+    },
+    {   slogan: "Um, no.",
+        icon: "ban"
+    },
+    {   slogan: "It's aliiive!",
+        icon: "cogs"
+    },
+    {   slogan: "Send help.",
+        icon: "life-buoy"
+    },
+    {   slogan: "A bot powered by magic. (And Javascript.)",
+        icon: "magic"
+    },
+    {   slogan: "LUV2CODE",
+        icon: "heart"
+    },
+    {   slogan: "It's not broken. It's... experimental.",
+        icon: "flask"
+    },
+    {   slogan: "Oh, dear.",
+        icon: "frown-o"
+    },
+    {   slogan: "Going places.",
+        icon: "line-chart"
+    },
+    {   slogan: "On fire! (Metaphorically, right?)",
+        icon: "fire-extinguisher"
+    },
+        {   slogan: "speedDemon.js.",
+        icon: "dashboard"
+    },
+    {   slogan: "Perpetually lost.",
+        icon: "map-marker"
+    },
+    {   slogan: "Rebel without a cause.",
+        icon: "rebel"
+    },
+    {   slogan: "Powered by ESP8266.",
+        icon: "microchip"
+    },
+    {   slogan: "Was it supposed to do that?!",
+        icon: "exclamation-triangle"
+    },
+    {   slogan: "Headed toward the finish line.",
+        icon: "flag-checkered"
+    },
+    {   slogan: "Hang in there, baby.",
+        icon: "heartbeat"
+    },
+    {   slogan: "Really, really, really fast.",
+        icon: "fast-forward"
+    },
+    {   slogan: "Basically priceless.",
+        icon: "diamond"
+    },
+    {   slogan: "Fast as lightning!",
+        icon: "bolt"
+    },
+    {   slogan: "Eye on the prize.",
+        icon: "eye"
+    },
+    {   slogan: "????????",
+        icon: "question-circle"
+    },
+    {   slogan: "Pow-pow-power wheels!",
+        icon: "power-off"
+    },
+    {   slogan: "Uniquely unique.",
+        icon: "snowflake-o"
+    },
+    {   slogan: "Toot, toot! Ahh beep, beep!",
+        icon: "bus"
+    },
+    {   slogan: "A bit of a fixer-upper.",
+        icon: "wrench"
+    },
+    {   slogan: "IoT? Oh my!",
+        icon: "wifi"
+    },
+    {   slogan: "It's not a bug, it's a feature.",
+        icon: "bug"
+    },
+    {   slogan: "Um, no.",
+        icon: "ban"
+    },
+    {   slogan: "It's aliiive!",
+        icon: "cogs"
+    },
+    {   slogan: "Send help.",
+        icon: "life-buoy"
+    },
+    {   slogan: "A bot powered by magic. (And Javascript.)",
+        icon: "magic"
+    },
+    {   slogan: "LUV2CODE",
+        icon: "heart"
+    },
+    {   slogan: "It's not broken. It's... experimental.",
+        icon: "flask"
+    },
+    {   slogan: "Oh, dear.",
+        icon: "frown-o"
+    },
+    {   slogan: "Going places.",
+        icon: "line-chart"
+    },
+    {   slogan: "On fire! (Metaphorically, right?)",
+        icon: "fire-extinguisher"
+    },
+        {   slogan: "speedDemon.js.",
+        icon: "dashboard"
+    },
+    {   slogan: "Perpetually lost.",
+        icon: "map-marker"
+    },
+    {   slogan: "Rebel without a cause.",
+        icon: "rebel"
+    },
+    {   slogan: "Powered by ESP8266.",
+        icon: "microchip"
+    },
+    {   slogan: "Was it supposed to do that?!",
+        icon: "exclamation-triangle"
+    },
+    {   slogan: "Headed toward the finish line.",
+        icon: "flag-checkered"
+    },
+    {   slogan: "Hang in there, baby.",
+        icon: "heartbeat"
+    },
+    {   slogan: "Really, really, really fast.",
+        icon: "fast-forward"
+    },
+    {   slogan: "Basically priceless.",
+        icon: "diamond"
+    },
+    {   slogan: "Fast as lightning!",
+        icon: "bolt"
+    },
+    {   slogan: "Eye on the prize.",
+        icon: "eye"
+    },
+    {   slogan: "????????",
+        icon: "question-circle"
+    },
+    {   slogan: "Pow-pow-power wheels!",
+        icon: "power-off"
+    },
+    {   slogan: "Uniquely unique.",
+        icon: "snowflake-o"
+    },
+    {   slogan: "Toot, toot! Ahh beep, beep!",
+        icon: "bus"
+    },
+    {   slogan: "A bit of a fixer-upper.",
+        icon: "wrench"
+    },
+    {   slogan: "IoT? Oh my!",
+        icon: "wifi"
+    },
+    {   slogan: "It's not a bug, it's a feature.",
+        icon: "bug"
+    },
+    {   slogan: "Um, no.",
+        icon: "ban"
+    },
+    {   slogan: "It's aliiive!",
+        icon: "cogs"
+    },
+    {   slogan: "Send help.",
+        icon: "life-buoy"
+    },
+    {   slogan: "A bot powered by magic. (And Javascript.)",
+        icon: "magic"
+    },
+    {   slogan: "LUV2CODE",
+        icon: "heart"
+    },
+    {   slogan: "It's not broken. It's... experimental.",
+        icon: "flask"
+    },
+    {   slogan: "Oh, dear.",
+        icon: "frown-o"
+    },
+    {   slogan: "Going places.",
+        icon: "line-chart"
+    },
+    {   slogan: "On fire! (Metaphorically, right?)",
+        icon: "fire-extinguisher"
     }
 ]
 // Initialize web app
