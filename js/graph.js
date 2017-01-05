@@ -7,7 +7,7 @@ io.on('initData', function (data) {
     for (i = 0; i < data.length; i++) {
         if (!document.getElementById(data[i].botID)) {
             var botID = data[i].botID;
-            $('body').prepend('<div id="' + botID + '" class="turtle"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" style="color:#0000ff"></i><i class="fa fa-' + data[i].symbol + ' fa-stack-1x" style="color:' + data[i].botColor + '"></i></span></div>');
+            $('body').prepend('<div id="' + botID + '" class="turtle"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" style="color:#0000ff; opacity:.7"></i><i class="fa fa-' + data[i].symbol + ' fa-stack-1x" style="color:' + data[i].botColor + '"></i></span></div>');
             $("#sidebar").append($('<p><i class="fa fa-' + data[i].symbol + ' fa-2x fa-pull-left fa-fw" style="color:' + data[i].botColor + '"></i>' + data[i].botName + ": " + Math.round(data[i].totalDistance*.005) + 'ft.<BR><em>' + data[i].slogan + '</em></p>'));
         }
         var commandFunction = new Function("t.thickness(2).color('" + data[i].botColor + "')." + data[i].currentCommand);
