@@ -20,8 +20,7 @@ io.on('initData', function (data) {
         })
         console.log(commandFunction)
         t.pu().home().pd();
-        // var ckdistance = data.sort(function(a, b) {
-        //     return parseFloat(a.distance) - parseFloat(b.distance);
+        // var ckdistance = data.sort(function(a, b) {        //     return parseFloat(a.distance) - parseFloat(b.distance);
         // });
         // if (ckdistance > canvas.height) { canvas.scale(.85,.85) }
         
@@ -51,7 +50,7 @@ io.on('updateData', function (data) {
 //             return parseFloat(a.distance) - parseFloat(b.distance);
 //         });
 //         if (data[data.length].distance > canvas.height) { canvas.scale(.85,.85) }
-//     }
+     }
 
 
     //         color.push(color.shift());
